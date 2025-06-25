@@ -16,6 +16,12 @@ A self-hosted, all-in-one cloud platform for compute, storage, networking, and d
 
 > **Status:** Actively in development | AGPL-3.0 Licensed
 
+#### **[Narratix](https://github.com/homecloudhq/narratix)**
+
+tuned to the noise before it becomes signal.  
+
+> **Status:** redacted
+
 ---
 
 ### 🛠️ What We Build
