@@ -1,8 +1,10 @@
-## 🌐 Welcome to HomeCloudHQ
+## 🌐 Welcome to Solinode
 
 **Open-source cloud, automation, and beyond — built for flexibility and freedom.**
 
-HomeCloudHQ is a developer-led organization building tools to decentralize and democratize infrastructure. We believe the future of the cloud is *open*, *self-hosted*, and *in your control*.
+> rebranding underway  
+
+Solinode is a developer-led organization building tools to decentralize and democratize infrastructure. We believe the future of the cloud is *open*, *self-hosted*, and *in your control*.
 
 Whether it’s deploying compute to your own hardware, spinning up reliable local networking, or automating secure edge services — we’re here to make powerful infrastructure more accessible.
 
