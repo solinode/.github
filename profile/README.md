@@ -1,68 +1,46 @@
-## 🌐 Welcome to Solinode
+## 🌐 Solinode
 
-**Open-source cloud, automation, and beyond — built for flexibility and freedom.**
-
-> rebranding underway  
-
-Solinode is a developer-led organization building tools to decentralize and democratize infrastructure. We believe the future of the cloud is *open*, *self-hosted*, and *in your control*.
-
-Whether it’s deploying compute to your own hardware, spinning up reliable local networking, or automating secure edge services — we’re here to make powerful infrastructure more accessible.
+**Open-source infrastructure you run yourself.** We build tools that give you the cloud's power on your own hardware: no vendor lock-in, no telemetry, no surprise bills.
 
 ---
 
-### 🚀 Current Projects
+### ☁️ [HomeCloud](https://github.com/solinode/homecloud): your own AWS, on your hardware
 
-#### **[HomeCloud](https://github.com/homecloudhq/homecloud)**
+One binary runs 30 AWS-style services on Docker: EC2, S3, Lambda, DynamoDB, SQS, SNS, IAM, KMS, CloudWatch, Step Functions and more, with a web console and a CLI. It speaks the AWS protocols, so the **AWS CLI, the SDKs and Terraform work unchanged**.
 
-A self-hosted, all-in-one cloud platform for compute, storage, networking, and databases. Think AWS, but under your desk — not their surveillance.
+```bash
+curl -fsSL https://homecloud.pages.dev/scripts/install.sh | sh
+homecloud serve
+```
 
-> **Status:** Actively in development | AGPL-3.0 Licensed
-
-#### **[Narratix](https://github.com/homecloudhq/narratix)**
-
-tuned to the noise before it becomes signal.  
-
-> **Status:** redacted
+🌍 [homecloud.pages.dev](https://homecloud.pages.dev) · 📦 [Releases](https://github.com/solinode/homecloud/releases) · 📖 [AWS compatibility](https://github.com/solinode/homecloud/blob/main/docs/aws-compat.md) · AGPL-3.0
 
 ---
 
-### 🛠️ What We Build
+### 🧪 In the lab
 
-* 💻 **Open-source Infrastructure** — From compute to storage to edge, without vendor lock-in
-* 🧩 **Composable Tools** — Designed to integrate, remix, and extend
-* 🛡️ **Privacy-First Platforms** — No telemetry. No surveillance capitalism.
-* 🌱 **Community-Driven Projects** — Built in public, with contributors and early adopters
-
----
-
-### 👥 Who We’re For
-
-* Developers who want control over their stack
-* Homelabbers and hackers who like to tinker
-* Teams building sovereign and secure infra
-* Anyone who wants to escape Big Cloud
+| Project | What it is | Status |
+| --- | --- | --- |
+| [Atlas](https://github.com/solinode/atlas) | A self-hosted control panel for Linux servers, Docker and Nginx routing | Design |
+| [EnvRelay](https://github.com/solinode/envrelay) | Share environment secrets with your team without pasting them into chat | Design |
+| [Narratix](https://github.com/solinode/narratix) | Tuned to the noise before it becomes signal | Design |
 
 ---
 
-### 🤝 Join Us
+### 🛠️ What we care about
 
-We’re early, open-source, and always looking for contributors and collaborators.
-
-* 🗺 [View Our Roadmap](https://github.com/orgs/homecloudhq/projects)
-* 💬 [Join our Discord](https://homecloud.suryansh.one/discord)
-* 💻 [Explore the Code](https://github.com/homecloudhq/homecloud)
-* 📬 Contact: [hi@suryansh.one](mailto:hi@suryansh.one)
+* 💻 **Open-source infrastructure**: compute, storage and networking without lock-in
+* 🧩 **Composable tools** that speak the standards you already use
+* 🛡️ **Privacy first**: no telemetry, no surveillance
+* 🌱 **Built in public** with contributors and early adopters
 
 ---
 
-### 💡 More Coming Soon
+### 🤝 Join us
 
-We're actively prototyping new projects — from decentralized orchestration tools to lightweight observability stacks. Stay tuned.
-
----
-
-## 🌩 HomeCloudHQ
+* 💬 [Discord](https://discord.gg/pemra9uaC9)
+* 🗺 [Roadmap and issues](https://github.com/solinode/homecloud/issues)
+* 🛠️ [Contribute to HomeCloud](https://github.com/solinode/homecloud/blob/main/CONTRIBUTING.md)
+* 📬 [hi@suryansh.one](mailto:hi@suryansh.one)
 
 *Your cloud. Your terms.*
-
----
